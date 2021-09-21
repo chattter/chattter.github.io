@@ -11,18 +11,26 @@
     </div>
 </div>
 </div>
-<div class="page-content">
-    <p>
-        chattter is a completely free and open-source application that allows you to easily create a way for
-        your entire team to converse about your current and future projects
-    </p>
-    <p class="list">
-        <span class="check">✔</span> Open-Source <br>
-        <span class="check">✔</span> Fast <br>
-        <span class="check">✔</span> Up-to-Date Documentation <br>
-        <span class="check">✔</span> Ease of Use <br>
+    <div class="page-content">
+        <p>
+            chattter is a completely free and open-source application that allows you to easily create a way for
+            your entire team to converse about your current and future projects
+        </p>
+        <p class="list">
+            <span class="check">✔</span> Open-Source <br>
+            <span class="check">✔</span> Fast <br>
+            <span class="check">✔</span> Up-to-Date Documentation <br>
+            <span class="check">✔</span> Ease of Use <br>
+        </p>
 
-    </p>
+</div>
+<div class="how-it-works">
+    <span class="section-text">
+        We use GO and Gorilla to code everything and then all you have to do to spin it up and get it
+        working is use our docker file and set up a database or let us set one up for you! In 5
+        minutes you could have a platform to talk to team members and coordinate with them, instead of having
+        to go through the hassle of setting up something like Slack
+    </span>
     </div>
 <style>
     .hero {
@@ -30,10 +38,13 @@
         color: white;
         padding: 100px;
         text-align: center;
-        margin:0px;
+        margin-top:0px;
+    }
+    .hero-text{
+        margin-bottom: 30px;
     }
     .hero-subtext{
-        background-color: #282828;
+        background-color: #272727;
     }
     .card-container{
         color: white;
@@ -53,7 +64,7 @@
     .page-content{
         background-color: #313131;
         color: white;
-        height: 100%;
+        height: 70%;
         padding: 50px;
         margin: 0px;
         text-align: left;
@@ -69,6 +80,17 @@
     }
     .check{
         color: #0ccc0f;
+    }
+    .how-it-works{
+        background-color: #272727;
+        height: 50%;
+        width:100%;
+        text-align: center;
+        padding-top:10%;
+    }
+    .section-text{
+        color: white;
+        font-size: 20px;
     }
 </style>
 
